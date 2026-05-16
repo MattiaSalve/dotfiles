@@ -1,0 +1,16 @@
+{
+	"layer": "top",
+	"margin-top": 10, 
+	"margin-right": 5,
+	"margin-left": 5,
+	"include": [
+		"./modules/distro.jsonc",
+		"./modules/info.jsonc",
+		"./modules/workspaces.jsonc"
+	],
+
+	"modules-left": ["custom/distro", "hyprland/window"],
+	"modules-center": ["clock", "hyprland/workspaces"],
+	"modules-right": ["battery", "pulseaudio", "network"]
+
+}
